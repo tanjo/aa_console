@@ -1,0 +1,17 @@
+## .gitignore ##
+
+# ignore all
+*
+*/
+
+# allow any
+!.travis.yml
+!.gitignore
+!*.cc
+!*.hh
+!*.hh.in
+!CMakeLists.txt
+!README.md
+!setup.sh
+!aa_console/
+!sample_aa_console/
