@@ -2,6 +2,6 @@
 #include <aa_console.hh>
 
 int main() {
-  std::cout << getVersion() << std::endl;
+  std::cout << aa_console::getVersion() << std::endl;
   return 0;
 }

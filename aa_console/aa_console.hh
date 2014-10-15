@@ -2,7 +2,11 @@
 #define AA_CONSOLE_HH_
 
 #include <iostream>
+#include <string>
+#include <vector>
 
-std::string getVersion();
+namespace aa_console {
+  std::string getVersion();    
+}
 
 #endif // AA_CONSOLE_HH_
